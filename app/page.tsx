@@ -1,4 +1,4 @@
-import { BackgroundCellAnimation } from "@/components/ui/Hero";
+import { BackgroundCellAnimation } from "@/components/Hero";
 
 export default function Home() {
   return (

@@ -2,10 +2,10 @@
 import React, { useEffect, useRef, useState, MouseEvent } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { cn } from "@/lib/utils";
-import { Button } from "./button";
+import { Button } from "./ui/button";
 import Link from "next/link";
 import Image from "next/image";
-// import Video from "./Video";
+import Video from "./Video";
 
 export const BackgroundCellAnimation: React.FC = () => {
   return (
@@ -45,7 +45,7 @@ export const BackgroundCellAnimation: React.FC = () => {
           </div>
         </div>
         <div id="video" className="mt-16 md:mt-32 lg:mt-40 w-full">
-          {/* <Video /> */}
+          <Video />
         </div>
       </div>
     </div>
