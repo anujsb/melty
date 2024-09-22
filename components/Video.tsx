@@ -13,12 +13,6 @@ const Video = () => {
       </div> */}
       <video width="1130" height="1240" autoPlay loop muted>
         <source src="/video.mp4" type="video/mp4" />
-        {/* <track
-        src="/path/to/captions.vtt"
-        kind="subtitles"
-        srcLang="en"
-        label="English"
-      /> */}
         Your browser does not support the video tag.
       </video>
     </div>

@@ -12,36 +12,38 @@ export const BackgroundCellAnimation: React.FC = () => {
     <div className="relative h-full w-full flex justify-center items-center overflow-hidden">
       <BackgroundCellCore />
       <div className="relative z-40 px-4 md:px-8 lg:px-16 text-center pointer-events-none select-none mt-20">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-medium text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-500 mt-16 md:mt-20 lg:mt-28 pointer-events-none">
-          Turn Conversations into Code Commits{" "}
-        </h1>
-        <p className="text-neutral-700 text-sm sm:text-base md:text-lg lg:text-xl my-4 lg:my-6">
-          Revert, branch, reset, and squash your chats. Melty stays in sync with
-          you like a pair programmer so you never have to explain what
-          you&apos;re doing.
-        </p>
-        <div className="my-6 flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link
-            href="https://docs.google.com/forms/d/e/1FAIpQLSc6uBe0ea26q7Iq0Co_q5fjW2nypUl8G_Is5M_6t8n7wZHuPA/viewform"
-            className="z-50 pointer-events-auto"
-          >
-            <Button className="px-4 py-2 text-sm sm:text-base">
-              Get Early Access.
-            </Button>
-          </Link>
-          {/* <p className="text-neutral-600 text-xs sm:text-sm md:text-base">
+        <div className="mx-24">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-medium text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-500 mt-16 md:mt-20 lg:mt-28 pointer-events-none">
+            Turn Conversations into Code Commits{" "}
+          </h1>
+          <p className="text-neutral-700 text-sm sm:text-base md:text-lg lg:text-xl my-4 lg:my-6">
+            Revert, branch, reset, and squash your chats. Melty stays in sync
+            with you like a pair programmer so you never have to explain what
+            you&apos;re doing.
+          </p>
+          <div className="my-6 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc6uBe0ea26q7Iq0Co_q5fjW2nypUl8G_Is5M_6t8n7wZHuPA/viewform"
+              className="z-50 pointer-events-auto"
+            >
+              <Button className="px-4 py-2 text-sm sm:text-base">
+                Get Early Access.
+              </Button>
+            </Link>
+            {/* <p className="text-neutral-600 text-xs sm:text-sm md:text-base">
             5,000 people like you <br className="hidden sm:block" /> have
             purchased this product!
           </p> */}
-          <div className="flex flex-col items-center justify-center md:justify-start mb-4 text-light-grey-bg">
-            backed by
-            <Image
-              src="/ycom.png"
-              width={131.39}
-              height={24.11}
-              alt="ycom"
-              className="mx-2 px-2 py-1 border rounded-md bg-white"
-            />
+            <div className="flex flex-col items-center justify-center md:justify-start mb-4 text-light-grey-bg">
+              backed by
+              <Image
+                src="/ycom.png"
+                width={131.39}
+                height={24.11}
+                alt="ycom"
+                className="mx-2 px-2 py-1 border rounded-md bg-white"
+              />
+            </div>
           </div>
         </div>
         <div id="video" className="mt-16 md:mt-32 lg:mt-40 w-full">
