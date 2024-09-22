@@ -7,7 +7,7 @@ import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto">
       <FloatingNavDemo />
       <BackgroundCellAnimation />
       <Features />
