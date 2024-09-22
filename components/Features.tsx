@@ -41,10 +41,13 @@ const Features = () => {
               </div>
               <h1 className="text-lg md:text-xl font-semibold">Refactor</h1>
             </div>
-            <video className="w-full h-auto" autoPlay loop muted>
+            {/* <video className="w-full h-auto" autoPlay loop muted>
               <source src="/Refactor.mp4" type="video/mp4" />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
+            <div className="p-2 bg-light-lavender rounded-xl border mr-4 mt-5 min-h-48 bg-white">
+              <p className="text-gray-300">PlaceHolder for video</p>
+            </div>
           </div>
 
           {/* Navigate Codebases Feature */}
@@ -62,10 +65,13 @@ const Features = () => {
                 Navigate large codebases
               </h1>
             </div>
-            <video className="w-full h-auto" autoPlay loop muted>
+            {/* <video className="w-full h-auto" autoPlay loop muted>
               <source src="/nav.mp4" type="video/mp4" />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
+            <div className="p-2 bg-light-lavender rounded-xl border mr-4 mt-5 min-h-48 bg-white">
+              <p className="text-gray-300">PlaceHolder for video</p>
+            </div>
           </div>
         </div>
 
@@ -75,21 +81,19 @@ const Features = () => {
           <div className="border rounded-lg p-4 flex flex-col justify-between items-center gap-4">
             <div className="flex items-center">
               <div className="p-2 bg-light-lavender rounded-2xl border mr-4">
-                <Image
-                  src="web.svg"
-                  width={25}
-                  height={25}
-                  alt="web icon"
-                />
+                <Image src="web.svg" width={25} height={25} alt="web icon" />
               </div>
               <h1 className="text-lg md:text-xl font-semibold">
                 Create web apps from scratch
               </h1>
             </div>
-            <video className="w-full h-auto" autoPlay loop muted>
+            {/* <video className="w-full h-auto" autoPlay loop muted>
               <source src="/web.mp4" type="video/mp4" />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
+            <div className="p-2 bg-light-lavender rounded-xl border mr-4 mt-5 min-h-48 bg-white">
+              <p className="text-gray-300">PlaceHolder for video</p>
+            </div>
           </div>
 
           {/* Write Commits Feature */}
@@ -107,12 +111,15 @@ const Features = () => {
                 Write its own commits
               </h1>
             </div>
-            <Image
+            {/* <Image
               src="/commit.png"
               width={525}
               height={525}
               alt="commit preview"
-            />
+            /> */}
+            <div className="p-2 bg-light-lavender rounded-xl border mr-4 mt-5 min-h-48 bg-white">
+              <p className="text-gray-300">PlaceHolder for video</p>
+            </div>
           </div>
         </div>
       </div>
